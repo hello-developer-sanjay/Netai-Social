@@ -1,0 +1,7 @@
+# render.yaml
+
+services:
+  - name: my-flask-app
+    type: web
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py

@@ -1,0 +1,20 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore server libraries and dependencies
+node_modules/
+server/__pycache__/
+server/.vscode/
+server/*.pyc
+
+# Ignore environment files (if any)
+.env
+
+# Ignore editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temporary files
+*.log
+*.tmp
