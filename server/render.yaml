@@ -3,5 +3,5 @@
 services:
   - name: my-flask-app
     type: web
-    buildCommand: pip install -r requirements.txt
+   buildCommand: MAX_STEPS=1000 pip install -r requirements.txt
     startCommand: python app.py
